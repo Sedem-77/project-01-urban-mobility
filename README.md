@@ -26,11 +26,34 @@ Urban Mobility: a look into the NYC TLC data
 
 * **Source:** NYC TLC Trip Record Data: https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page
 * **Features:** To be filled 
-* **Pipeline:** To be filled 
+* **Pipeline:** 
 
 ## 4. Repository Structure
-To be filled
-
+```tree
+│   README.md
+│   
+├───.vscode
+│       settings.json
+│       
+├───data
+│   ├───external_supp
+│   ├───interim
+│   ├───processed
+│   └───raw
+│           yellow_tripdata_2026-01.parquet
+│           
+├───docs
+│       Did-and-to-do-journal.md
+│       
+├───figures
+├───notebooks
+│       urban-mobility-nyc-tlc-trip.ipynb
+│       
+├───reports
+├───scripts
+├───src
+└───tests
+```
 ## 5. Getting Started and installation
 
 To be filled 
