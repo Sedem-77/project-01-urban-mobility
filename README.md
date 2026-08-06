@@ -24,7 +24,8 @@ Urban Mobility: a look into the NYC TLC data
 
 ## 3. Data Source and Methodology
 
-* **Source:** NYC TLC Trip Record Data: https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page
+* **Source:** NYC TLC Trip Record Data: https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page  
+* **Data:** yellow_tripdata_2026-01.parquet
 * **Features:** To be filled 
 * **Pipeline:** 
 
