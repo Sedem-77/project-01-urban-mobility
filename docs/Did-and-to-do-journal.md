@@ -25,3 +25,21 @@ In here, we track our progress and time spent on this work. We do so by answerin
 * **What challenged us:** Ensuring that the gitignore works well
 
 *  **To do next:** Data quality report
+
+
+
+## **Date:** From Aug/08/2026 - Aug/12/2026
+* **Time Spent:** 3hrs 
+* **What did we accomplish today** I explored the data briefly to check for it's validity and missingness. I noticed there were some missing values in some variables that needed cleaning (yet to do that) and some vairables contains rows that are not valid ( example: passenger_count having more than 6 passengers). I also creeated my tentative research questions that i want to look at. This takes my first objective in the readme file and created sub questions to look at. It is tentative because the questions will be modified based on what the exploratory analysis reveals. The Rest of the objectives will be tackeled later.. 
+* **What new thing did we learn. Codewise and Methodwise (Document new models learnt or packages for future refs):** While at it, my  vscode keeps spliting my workspace into 2 and reopens my code in the second split opener and interrupting with my work flow. I checked on stackexchange and found this great suggestion that helped me resolved it: 
+
+    Second action (Visual Studio Code opens multiple instances)
+Open the Visual Studio Code editor, go to the setting and paste this in the search bar (e.g., Ctrl + ,):
+"workbench.editor.enablePreview": false
+If you have this option marked, you should unmark it or set it to false depending on the interface you are presented and interacting with. This should stop Visual Studio Code from running multiple instances and hopefully resolve your problem. (link: https://www.bing.com/search?q=why%20does%20my%20vscode%20keep%20spliting%20my%20workspace%20into%202%20and%20reopens%20my%20code%20in%20the%20second%20split%20opener&qs=n&form=QBRE&sp=-1&ghc=2&lq=0&pq=why%20does%20my%20vscode%20keep%20spliting%20my%20workspace%20into%202%20and%20reopens%20my%20code%20in%20the%20second%20split%20opener&sc=1-99&sk=&cvid=FE8754F4ED974B518CA9D7C8C525DA02&dayref=1&ajf=10).
+
+Codewise: One code I think its good keeping in mind for expediency is this: df_filter_ratecodeid = df[~df["RatecodeID"].isin(range(1,7))] (Keep all columns except "RatecodeID)
+
+* **What challenged us:**  Resolving the vscode splitting issue. I nearly gave up!
+
+*  **To do next:** Explore more validity and quality of data and start cleaning (perhaps)
