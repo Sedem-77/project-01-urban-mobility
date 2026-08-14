@@ -9,3 +9,12 @@
  * **Q2** Can population and socioeconomic characteristics explain those differences if there were any? 
  * **Q3**  DO these inequalities persist across time?
  * **Q4** How do major disruptions alter those patterns? 
+
+
+
+## BACKLOG
+* Mobility anomaly detection
+* Tipping Behavior
+* Mobility resilience
+* Driver revenue variability
+* Mobility Networks
