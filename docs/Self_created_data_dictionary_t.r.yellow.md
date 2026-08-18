@@ -1,22 +1,22 @@
-| Variable              | Meaning | Type      | Role | Concerns |
-| --------------------- | ------- | --------- | ---- | -------- |
-| VendorID              |         | integer   |      |          |
-| tpep_pickup_datetime  |         | date/time |      |          |
-| tpep_dropoff_datetime |         | date/time |      |          |
-| passenger_count       |         | float     |      |          |
-| trip_distance         |         | float     |      |          |
-| RatecodeID            |         | float     |      |          |
-| store_and_fwd_flag    |         | string    |      |          |
-| PULocationID          |         | integer   |      |          |
-| DOLocationID          |         | integer   |      |          |
-| payment_type          |         | integer   |      |          |
-| fare_amount           |         | float     |      |          |
-| extra                 |         | float     |      |          |
-| mta_tax               |         | float     |      |          |
-| tip_amount            |         | float     |      |          |
-| tolls_amount          |         | float     |      |          |
-| improvement_surcharge |         | float     |      |          |
-| total_amount          |         | float     |      |          |
-| congestion_surcharge  |         | float     |      |          |
-| Airport_fee           |         | float     |      |          |
-| cbd_congestion_fee    |         | float     |      |          |
+| Variable              | Meaning | Type      | Role               | Concerns |
+| --------------------- | ------- | --------- | ------------------ | -------- |
+| VendorID              |         | integer   | identifier         |          |
+| tpep_pickup_datetime  |         | date/time | temporal           |          |
+| tpep_dropoff_datetime |         | date/time | temporal           |          |
+| passenger_count       |         | float     | magnitude/weight   |          |
+| trip_distance         |         | float     | predictor/outcome  |          |
+| RatecodeID            |         | float     | identifier         |          |
+| store_and_fwd_flag    |         | string    | data quality       |          |
+| PULocationID          |         | integer   | spatial            |          |
+| DOLocationID          |         | integer   | spatial            |          |
+| payment_type          |         | integer   | monetary indicator |          |
+| fare_amount           |         | float     | monetary           |          |
+| extra                 |         | float     | monetary           |          |
+| mta_tax               |         | float     | monetary           |          |
+| tip_amount            |         | float     | monetary           |          |
+| tolls_amount          |         | float     | monetary           |          |
+| improvement_surcharge |         | float     | monetary           |          |
+| total_amount          |         | float     | monetary           |          |
+| congestion_surcharge  |         | float     | monetary           |          |
+| Airport_fee           |         | float     | monetary           |          |
+| cbd_congestion_fee    |         | float     | monetary           |          |
